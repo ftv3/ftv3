@@ -1,1 +1,72 @@
-Hello World
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#003300">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>&hearts; footytube</title>
+    <link rel="stylesheet" href="style.css?v=1" />
+    <link rel="icon" href="images/favicon.png" />
+    <style>
+        body
+        {
+            font-family: courier; text-decoration: none; font-size:0.8em; color: white;
+        }
+
+        .ball_holder {
+
+            height: 200px; margin-top: -200px; text-align: center; width: 100%; 
+        }
+
+        .ball
+        {
+            height: 200px; width: 200px;
+        }
+
+        @media screen and (max-height: 400px) { .ball_holder { height: 100px; } .support { width:40px; } #msg { display: none; }  .ball { height: 100px; width: 100px;  }  } }
+    </style>
+</head>
+
+
+
+<body>
+
+    <canvas id="canvas"></canvas>
+
+    <div class="overlay">
+        <div class="ball_holder"><img class="ball" src="https://ftv3.github.io/ftv3/footytube-rainbow.png" width="200px" draggable="false"><span id="msg" style="text-align: center"></span></div>
+      
+
+        <div style="position: fixed; z-index: 1000; margin: auto; bottom: 0px;margin-bottom: 20px; width: 100%; text-align: center">
+
+            <div style="font-family: courier; text-decoration: none; font-size:1em; color: white;">We Support &hearts;</div>
+
+
+            <div style="padding:20px">
+                                <a href="https://www.kick4life.org/" style="text-decoration: none" target="_blank" title="Let's Kick4Life"><img src="https://ftv3.github.io/ftv3/logo_kick4life.png" width="70px" class="support" style="">                  <a href="https://www.kickitout.org/" style="text-decoration: none" target="_blank" title="Let's Kick Racism Out"><img src="https://ftv3.github.io/ftv3/logo_kickitout.png" width="70px" class="support" style="padding-bottom:10px">                  <a href="https://www.comicrelief.com/sportrelief/" style="text-decoration: none" target="_blank" title="Sport Relief"><img src="https://ftv3.github.io/ftv3/logo_sport-relief.png" width="70px" class="support" style="">                  <a href="https://www.headstogether.org.uk/heads-up/" style="text-decoration: none" target="_blank" title="Heads Up!"><img src="https://ftv3.github.io/ftv3/logo_heads-up.png" width="70px" class="support" style=""> <br>                 <a href="https://www.england.nhs.uk/2021/07/unprecedented-honour/" style="text-decoration: none" target="_blank" title="Thankyou!"><img src="https://ftv3.github.io/ftv3/logo_nhs.png" width="70px" class="support" style="">                  <a href="https://bthopeunited.com/" style="text-decoration: none" target="_blank" title="Hope Beats Hate"><img src="https://ftv3.github.io/ftv3/logo_hopeunited.png" width="70px" class="support" style="">                  <a href="https://earthshotprize.org//" style="text-decoration: none" target="_blank" title="Five Earthshots to help repair the planet"><img src="https://ftv3.github.io/ftv3/logo_earthshot.png" width="70px" class="support" style="">                  <a href="https://www.equalgame.com/" style="text-decoration: none" target="_blank" title="RESPECT | Sign for an Equal Game"><img src="https://ftv3.github.io/ftv3/logo_equalgame.png" width="70px" class="support" style="">  </a>
+            </div>
+            
+
+
+           
+        </div>    
+    </div>
+        <script src="https://ftv3.github.io/ftv3/script.js"></script>
+        </body>
+        </html>
+
+
+
+
